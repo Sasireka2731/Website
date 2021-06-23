@@ -1,0 +1,121 @@
+<html>
+<head>
+	<meta name="viewport" content="with=device-width,initial-scale=1.0">
+	<title>Website</title>
+	<link rel="stylesheet" type="text/css"  href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="preloader"></div>
+	<section class="sub-header">
+		<nav>
+		<a href="index.html"></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="skills.html">Skills</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="https://sasirekas.blogspot.com/">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	<h1>ABOUT</h1>
+	</section>
+	
+<!-----------------------About----------------->
+
+<section class="abt-me">
+	<p>Designing,Coding & Modifying Websites,from layout to function.<br>Strive to create  visually appealing sites that feature User-Friendly design & Clear Navigation</p><br>
+	
+		<div class="abt-col">
+			<img src="image/date.jpg">
+			<div class ="lay1">
+				<h2>D.O.B</h2>
+				<h3>31st of July, 2002</h3>
+			</div>
+		</div>
+		<div class="abt-col">
+			<img src="image/sch.jpg">
+			<div class="lay1">
+				<h2>SCHOOL</h2>
+				<h3>Completed<br> HSC with 83.1%(2019)<br> & <br>SSLC with 96.4%(2017) </h3>
+				<p>St.Mary's Girls' Higher Secondary School,<br>Mettur Dam,<br>Salem</p>
+			</div>	
+		</div>
+		
+		<div class="abt-col">
+			<img src="image/clg.jpg">
+			<div class="lay1">
+				<h2>UNDER GRADUATION</h2>
+				<h3>Pursuing<br> Bachelor of Technology-Information Technology<br>(2019-2023)</h3>
+				<p>Institute of Road and Transport Technology,<br>Erode</p>
+			</div>
+		</div>
+		
+		<div class="abt-col">
+			<img src="image/hobbies.jpg">
+			<div class="lay1">
+				<h2>Hobbies</h2>
+			<ul>
+				<li>Baking</li>
+				<li>Decorating</li>
+				<li>House plant care</li>
+				<li>Listening to music</li>
+				<li>Meditation</li>
+				<li>Nail art</li>
+				<li>Programming</li>
+				<li>Public speaking</li>
+				<li>Video Editing</li>
+			</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--------------------Contacts------------------------------->
+<section class="cta">
+	<h1>For More Awesome Projects </h1>
+	<a href="" class="stay">Stay Tuned with Me	<i class="fa fa-handshake-o"></i></a>
+</section>
+
+<!------------icons---------->
+<section>
+	<div class="by">
+		<p>Made with <i class="fa fa-heart-o"></i>By Sasireka...! </p>
+	<div class="icons">
+		<a href="https://www.linkedin.com/in/sasireka-s-a59487215"><i class="fa fa-linkedin-square"></i></a>
+		<a href="https://github.com/Sasireka2731"><i class="fa fa-github-square"></i></a>
+	</div>
+	</div>
+</section>
+
+<!--------------Web counter--------------->
+<!-- hitwebcounter Code START -->
+<div class="counter">
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=7827973&style=0019&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>                         
+</div>
+<!----------------------------------JavaScript for Toggle Menu---------------------------------------->
+<script>
+	var navLinks=document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+	}
+	function hideMenu(){
+		navLinks.style.right="-230px";
+	}
+</script>
+
+<script>
+	var loader =document.getElementById("preloader");
+	window.addEventListener("load",function(){
+		loader.style.display="none"
+	})
+</script>
+</body>
+</html>
